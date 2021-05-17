@@ -12,7 +12,7 @@ db.sequelize.sync();
 app.use('/api/product', product);
 app.use('/api/cart', cart);
 app.get('/', (req: any, res: any) => {
-    res.send('Hello')
+    res.send('hi there')
 });
 
 app.listen(PORT,() => {
